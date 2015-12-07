@@ -1,0 +1,139 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  margin-top: 0;
+  background: red;
+  text-align: center;
+  height: 5%;
+  margin-bottom: 1%;
+}
+
+header h1{
+  padding-top: .5%;
+}
+
+.map {
+  position: fixed;
+  margin-top: 2.5%;
+}
+
+.map img {
+  width: 100%;
+}
+
+aside {
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  background-color: #e3e3e3;
+  top: 38%;
+  left: 5%;
+}
+
+#annie {
+  float: left;
+}
+
+#annie #red {
+  position: relative;
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  top: 20px;
+  left: 30px;
+}
+
+.name p {
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 16%;
+  margin-bottom: 2%;
+}
+
+#kevin {
+  float: left;
+}
+
+#kevin #blue {
+  position: relative;
+  background-color: blue;
+  width: 40px;
+  height: 40px;
+  top: 20px;
+  left: 30px;
+}
+
+
+#kevinandannie {
+  float: left;
+}
+
+#kevinandannie #purple {
+  position: relative;
+  background-color: purple;
+  width: 40px;
+  height: 40px;
+  top: 20px;
+  left: 30px;
+}
+
+.arrow {
+  position: relative;
+  width: 7%;
+}
+
+#tokyo {
+  position: absolute;
+  left: 79%;
+  top: 5%;
+}
+
+#buenosairies {
+  position: absolute;
+  left: 28.3%;
+  top: 57.7%;
+}
+
+#melbourne {
+  position: absolute;
+  left: 80.6%;
+  top: 60.8%;
+}
+
+#copenhagen {
+  position: absolute;
+  left: 46.5%;
+  top: -7%;
+}
+
+#berlin {
+  position: absolute;
+  -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+  top: 5.7%;
+  left: 43%;
+}
+
+#berlin .destination {
+  position: absolute;
+  -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  margin-left: 35px;
+  margin-top: 8px;
+}
+
+.arrow .destination {
+  position: absolute;
+  top: 20px;
+  left: 13px;
+  color: white;
+}
